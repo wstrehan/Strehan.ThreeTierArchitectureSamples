@@ -1,0 +1,113 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "HandlerSample", "HandlerSample\", "{F9CEA200-AEED-40B6-916E-B2AD38116C81}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_53566"
+		Debug.AspNetCompiler.PhysicalPath = "HandlerSample\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53566\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_53566"
+		Release.AspNetCompiler.PhysicalPath = "HandlerSample\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53566\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "53566"
+		SlnRelativePath = "HandlerSample\"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3097C42A-BE78-4E96-A743-EAD026F697D0}"
+	ProjectSection(SolutionItems) = preProject
+		CreateDatabaseForSamples.sql = CreateDatabaseForSamples.sql
+		LICENSE = LICENSE
+		ThirdPartyNotices.txt = ThirdPartyNotices.txt
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebAPIWebsiteSample", "WebAPIWebsiteSample\", "{43D65208-B423-4EC4-88DA-4AAB38A69064}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_54301"
+		Debug.AspNetCompiler.PhysicalPath = "WebAPIWebsiteSample\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54301\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_54301"
+		Release.AspNetCompiler.PhysicalPath = "WebAPIWebsiteSample\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54301\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "54301"
+		SlnRelativePath = "WebAPIWebsiteSample\"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WCFSample", "WCFSample\", "{28097AB6-784F-4306-8559-6B8B07E2D794}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_54932"
+		Debug.AspNetCompiler.PhysicalPath = "WCFSample\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54932\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_54932"
+		Release.AspNetCompiler.PhysicalPath = "WCFSample\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54932\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "54932"
+		SlnRelativePath = "WCFSample\"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPISample", "WebAPISample\WebAPISample.csproj", "{2DC8F95B-0618-428D-BACE-5F9BAF479FF8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreSample", "CoreSample\CoreSample.csproj", "{E4C224A9-4014-4228-9E20-0ED9D8130C02}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F9CEA200-AEED-40B6-916E-B2AD38116C81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9CEA200-AEED-40B6-916E-B2AD38116C81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9CEA200-AEED-40B6-916E-B2AD38116C81}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9CEA200-AEED-40B6-916E-B2AD38116C81}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{43D65208-B423-4EC4-88DA-4AAB38A69064}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43D65208-B423-4EC4-88DA-4AAB38A69064}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43D65208-B423-4EC4-88DA-4AAB38A69064}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{43D65208-B423-4EC4-88DA-4AAB38A69064}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{28097AB6-784F-4306-8559-6B8B07E2D794}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28097AB6-784F-4306-8559-6B8B07E2D794}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28097AB6-784F-4306-8559-6B8B07E2D794}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{28097AB6-784F-4306-8559-6B8B07E2D794}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{2DC8F95B-0618-428D-BACE-5F9BAF479FF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DC8F95B-0618-428D-BACE-5F9BAF479FF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DC8F95B-0618-428D-BACE-5F9BAF479FF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DC8F95B-0618-428D-BACE-5F9BAF479FF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4C224A9-4014-4228-9E20-0ED9D8130C02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4C224A9-4014-4228-9E20-0ED9D8130C02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4C224A9-4014-4228-9E20-0ED9D8130C02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4C224A9-4014-4228-9E20-0ED9D8130C02}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {700A6FB2-2EAE-4FCC-A7CE-C29477D805B1}
+	EndGlobalSection
+EndGlobal

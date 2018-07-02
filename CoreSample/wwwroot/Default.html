@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+
+<script runat="server">
+
+</script>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <script src="Scripts/jquery-3.3.1.min.js"></script>
+    <script src="Scripts/relative-paths.js"></script>
+    <script src="Scripts/default.js"></script>
+</head>
+<body>
+        <h1>Gadgets</h1>
+        <div id="GadgetList">
+            <h2>Gadget List</h2>
+            <table id="tblGadgets">
+                <thead>
+                    <tr>
+                        <th>
+                            <span>Name</span>
+                        </th>
+                        <th>
+                            <span>Color</span>
+                        </th>
+                        <th>
+                            <span>Size</span>
+                        </th>
+                        <th>
+                            <span>Updated</span>
+                        </th>
+                        <th>
+                            <span></span>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+            <button id="btnShowAddGadget">Add Gadget</button>
+        </div>
+        <div id="AddUpdate">
+            <h2></h2>
+            <p><span>Name: </span><span><input id="GadgetName" /></span></p>
+            <p><span>Color: </span><span><select id="Colors"></select></span></p>
+            <p><span>Size: </span><span><select id="Sizes"></select></span></p>
+            <button id="btnSave">Save</button>
+            <button id="btnCancel">Cancel</button>
+        </div>
+</body>
+</html>
