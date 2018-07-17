@@ -1,6 +1,6 @@
 # Strehan.ThreeTierArchitectureSamples
 
-Most developers use the Model View Controller (MVC) design pattern for their projects.  Microsoft has an MVC Framework available for both .Net Framework and .Net Core.  For many applications a three tiered architecture makes more sense but sometimes it doesn't and a more flexable architecture is required.  **This repository provides examples of five different ways to implement a three tiered architecture with .Net**.
+Most developers use the Model View Controller (MVC) design pattern for their projects.  Microsoft has an MVC Framework available for both .Net Framework and .Net Core.  For many applications a three tiered architecture makes more sense but sometimes it doesn't and a more flexible architecture is required.  **This repository provides examples of five different ways to implement a three tiered architecture with .Net**.
 
 **Disadvantages of using Microsoft's MVC Framework**
 1.  Locked into using Visual Studio or Visual Studio Code for the front end development. Front end developers must know C# or another .Net programming language.
